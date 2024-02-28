@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Euler11
+import Euler16
 
 main :: IO ()
 main = putStrLn $ show answer
