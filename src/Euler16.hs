@@ -1,7 +1,9 @@
-module Euler16(answer) where
+module Euler16 (answer) where
+
+import Data.List (singleton)
 
 answer :: Int
-answer = sum . map read . map (:[]) . show $ pow 2 1000
+answer = sum . map (read . singleton) . show $ pow 2 1000 
 
 pow :: Integer -> Integer -> Integer
 pow = pow' 1 where
