@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.37.0.
+-- This file has been generated from package.yaml by hpack version 0.38.1.
 --
 -- see: https://github.com/sol/hpack
 
@@ -31,9 +31,11 @@ library
       Euler12
       Euler13
       Euler14
-      Euler14NoImplicit
       Euler15
       Euler16
+      Euler17
+      Euler18
+      Euler19
       Euler2
       Euler3
       Euler4
@@ -43,7 +45,6 @@ library
       Euler8
       Euler9
       Lib
-      Rainwater
   other-modules:
       Paths_euler
   hs-source-dirs:

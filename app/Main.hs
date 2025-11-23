@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Rainwater
+import Euler18 (answer)
 
 main :: IO ()
 main = putStrLn $ show answer
