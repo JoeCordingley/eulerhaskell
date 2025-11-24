@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Euler18 (answer)
+import Euler21 (answer)
 
 main :: IO ()
 main = putStrLn $ show answer

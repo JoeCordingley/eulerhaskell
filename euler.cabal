@@ -25,25 +25,28 @@ source-repository head
 
 library
   exposed-modules:
-      Euler1
-      Euler10
-      Euler11
-      Euler12
-      Euler13
-      Euler14
-      Euler15
-      Euler16
-      Euler17
-      Euler18
-      Euler19
-      Euler2
-      Euler3
-      Euler4
-      Euler5
-      Euler6
-      Euler7
-      Euler8
-      Euler9
+      Euler0001
+      Euler0002
+      Euler0003
+      Euler0004
+      Euler0005
+      Euler0006
+      Euler0007
+      Euler0008
+      Euler0009
+      Euler0010
+      Euler0011
+      Euler0012
+      Euler0013
+      Euler0014
+      Euler0015
+      Euler0016
+      Euler0017
+      Euler0018
+      Euler0019
+      Euler0020
+      Euler0021
+      Euler0022
       Lib
   other-modules:
       Paths_euler
