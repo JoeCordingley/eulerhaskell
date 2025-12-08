@@ -1,4 +1,4 @@
-module Euler21 (answer) where
+module Euler0021 (answer) where
 
 answer :: Int
 answer = sum . takeWhile (< 10000) $ amicableNumbers

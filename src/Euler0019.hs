@@ -1,6 +1,6 @@
 {-# LANGUAGE NamedFieldPuns #-}
 
-module Euler19 (answer) where
+module Euler0019 (answer) where
 
 import Data.Bool (bool)
 import Data.Monoid (Sum (..))

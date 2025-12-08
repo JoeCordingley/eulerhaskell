@@ -1,4 +1,4 @@
-module Euler13 (answer) where
+module Euler0013 (answer) where
 
 answer :: Int
 answer = read . take 10 . show $ (sum . map (read . take 12) $ input :: Int)

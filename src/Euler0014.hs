@@ -1,6 +1,6 @@
 {-# LANGUAGE FlexibleContexts #-}
 
-module Euler14 (answer) where
+module Euler0014 (answer) where
 
 import Control.Arrow ((***))
 import Control.Monad.State
@@ -12,10 +12,7 @@ import Data.Monoid (Ap (..))
 import Data.Semigroup (Max (..))
 
 answer :: Int
-answer = getEq . fst . getMax . fromJust . flip evalState (Map.singleton 1 1) . getAp $ foldMap maxCollatz [1 .. 999999]
-  where
-    maxCollatz = Ap . fmap maxBySecond . withInput collatzLength
-    maxBySecond = Just . Max . (Equal *** id)
+answer = getEq . fst . getMax . fromJust . flip evalState (Map.singleton 1 1) . getAp $ foldMap (Ap . fmap (Just . Max . (Equal *** id)) . withInput collatzLength) [1 .. 999999]
 
 collatzLength :: (MonadState (Map Int Int) f) => Int -> f Int
 collatzLength = fix $ memoize . collatzLengthUnfixed

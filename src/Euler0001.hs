@@ -1,4 +1,4 @@
-module Euler1(answer) where
+module Euler0001(answer) where
 
 naturalNumbers :: [Int]
 naturalNumbers = [0..]

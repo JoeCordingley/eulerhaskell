@@ -1,4 +1,4 @@
-module Euler7(answer, primes) where
+module Euler0007(answer, primes) where
 
 answer :: Int
 answer = primes !! index where

@@ -1,4 +1,4 @@
-module Euler3(answer) where
+module Euler0003(answer) where
 
 import Data.List (find)
 import Data.Maybe (fromJust)

@@ -1,4 +1,4 @@
-module Euler11(answer) where
+module Euler0011(answer) where
 
 import Data.List (tails, singleton)
 import Data.Maybe (maybeToList)

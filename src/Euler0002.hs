@@ -1,4 +1,4 @@
-module Euler2(answer) where
+module Euler0002(answer) where
 
 fibs :: [Int]
 fibs = 0 : 1 : (zipWith (+) fibs $ tail fibs)

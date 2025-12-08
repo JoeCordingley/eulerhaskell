@@ -1,4 +1,4 @@
-module Euler20 (answer) where
+module Euler0020 (answer) where
 
 answer :: Integer
 answer = sumOfDigits . factorial $ 100

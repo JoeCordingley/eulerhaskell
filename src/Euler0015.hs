@@ -1,6 +1,6 @@
 {-# LANGUAGE FlexibleContexts #-}
 
-module Euler15(answer) where
+module Euler0015(answer) where
 
 answer :: Integer
 answer = fact 40 `div` (square $ fact 20)

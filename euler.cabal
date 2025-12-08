@@ -47,6 +47,7 @@ library
       Euler0020
       Euler0021
       Euler0022
+      Euler0023
       Lib
   other-modules:
       Paths_euler

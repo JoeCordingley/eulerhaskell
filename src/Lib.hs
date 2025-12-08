@@ -1,6 +1,7 @@
-module Lib (
-    someFunc,
-) where
+module Lib
+  ( someFunc,
+  )
+where
 
 someFunc :: IO ()
 someFunc = putStrLn "someFunc"
@@ -21,3 +22,13 @@ scanLs :: (a -> b -> b) -> b -> [a] -> [(a, b)]
 -- scanLs f b (a : as) = (a, b) : scanLs f (f a b) as
 scanLs _ _ [] = []
 scanLs f b (a : as) = (a, b) : (map . fmap) (f a) (scanLs f b as)
+
+accumulate :: (t1 -> t2 -> t2) -> t2 -> [t1] -> t2
+accumulate op initial sequence = case sequence of
+  [] -> initial
+  (x : xs) -> op x (accumulate op initial xs)
+
+accumulateN :: (a -> t -> t) -> t -> [[a]] -> [t]
+accumulateN op init seqs = case seqs of
+  ([] : _) -> []
+  (xs : xss) -> accumulate op init (map head seqs) : accumulateN op init (map tail seqs)

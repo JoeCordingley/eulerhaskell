@@ -1,4 +1,4 @@
-module Euler4(answer) where
+module Euler0004(answer) where
 
 answer :: Int
 answer = maximum $ filter isPalendrome products

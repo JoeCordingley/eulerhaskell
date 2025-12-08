@@ -1,4 +1,4 @@
-module Euler12 (answer) where
+module Euler0012 (answer) where
 
 answer :: Int
 answer = find ((> 500) . numDivisors) triangles

@@ -1,4 +1,4 @@
-module Euler8(answer) where
+module Euler0008(answer) where
 
 import Data.Char (digitToInt)
 import Data.Maybe (maybeToList)

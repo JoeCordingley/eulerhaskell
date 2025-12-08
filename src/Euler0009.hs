@@ -1,4 +1,4 @@
-module Euler9(answer) where
+module Euler0009(answer) where
 
 
 answer :: Int

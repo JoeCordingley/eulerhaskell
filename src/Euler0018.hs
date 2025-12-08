@@ -1,4 +1,4 @@
-module Euler18 (answer) where
+module Euler0018 (answer) where
 
 triangle :: [[Int]]
 triangle = 

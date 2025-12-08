@@ -1,4 +1,4 @@
-module Euler10(answer) where
+module Euler0010(answer) where
 
 answer :: Int
 answer = sum $ takeWhile (< 2000000) primes

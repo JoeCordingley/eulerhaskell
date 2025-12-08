@@ -1,4 +1,4 @@
-module Euler16 (answer) where
+module Euler0016 (answer) where
 
 import Data.List (singleton)
 

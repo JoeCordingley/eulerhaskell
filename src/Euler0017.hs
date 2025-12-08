@@ -1,4 +1,4 @@
-module Euler17 (answer) where
+module Euler0017 (answer) where
 
 import Data.Monoid (Sum(..))
 
